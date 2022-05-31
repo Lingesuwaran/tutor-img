@@ -41,6 +41,28 @@ import calendar
           <label data-field="email" for="signup_email">${_('E-mail')} + ' *'</label>
 	    <input id="signup_email" type="email" name="email" placeholder="${_('e.g. yourname@domain.com')}" required />
 
+      <label data-field="institution" for="signup_institution">Institution Name</label>
+	    <!--<input id="signup_email" type="email" name="email" placeholder="${_('e.g. yourname@domain.com')}" required />-->
+      <input list="Instution_names" name="Instution_names">
+      <datalist id="Instution_names">
+        <option value="A">
+        <option value="B">
+        <option value="C">
+        <option value="D">
+        <option value="E">
+      </datalist>
+
+      <label data-field="classes" for="signup_class">Institution Name</label>
+	    <!--<input id="signup_email" type="email" name="email" placeholder="${_('e.g. yourname@domain.com')}" required />-->
+      <input list="Class_name" name="Class_name">
+      <datalist id="Class_name">
+        <option value="A">
+        <option value="B">
+        <option value="C">
+        <option value="D">
+        <option value="E">
+      </datalist>
+
           <label data-field="password" for="signup_password">${_('Password')} + ' *'</label>
 	    <input id="signup_password" type="password" name="password" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;" required />
 

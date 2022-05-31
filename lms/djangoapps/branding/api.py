@@ -51,7 +51,8 @@ def get_footer(is_secure=True, language=settings.LANGUAGE_CODE):
     Example:
     >>> get_footer()
     {
-        "logo_image": "https://img.icons8.com/bubbles/50/000000/bbb.png",
+        "copyright": "(c) 2015 EdX Inc",
+        "logo_image": "http://www.example.com/logo.png",
         "social_links": [
             {
                 "name": "facebook",
